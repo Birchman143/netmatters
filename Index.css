@@ -1,0 +1,23 @@
+footer {
+  display: flex;
+  background-color: #333645;
+  color: #fff;
+  font-family: sans-serif;
+  font-size:16px;
+  padding: 47px 0 433px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+
+services {
+    display: flex; 
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+offices {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+}
