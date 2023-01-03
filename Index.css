@@ -1,3 +1,10 @@
+.middle {
+    font-family: sans-serif;
+    font-size: 1rem;
+    letter-spacing: .4px;
+    background-color: #666;
+}
+
 footer {
   display: flex;
   background-color: #333645;
@@ -8,16 +15,32 @@ footer {
   justify-content: space-between;
   box-sizing: border-box;
   flex-direction: row;
+  text-decoration: none;
 }
 
-services {
+.services {
     display: flex; 
     box-sizing: border-box;
     flex-direction: row;
+    text-decoration: none;
 }
 
-offices {
+
+.offices {
     display: flex;
     box-sizing: border-box;
     flex-direction: row;
+    text-decoration: none;
 }
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+a:link    { color: #fff; text-decoration: none; }
+a:visited { color: #fff; text-decoration: none; }
+a:hover   { color: #fff; text-decoration: none; }
+a:active  { color: #fff; text-decoration: none; }
+
