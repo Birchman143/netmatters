@@ -1,8 +1,17 @@
-.middle {
+
+
+.body {
     font-family: sans-serif;
     font-size: 1rem;
     letter-spacing: .4px;
     background-color: #666;
+    padding: 50px 0 50px;
+
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
 }
 
 footer {
@@ -11,12 +20,34 @@ footer {
   color: #fff;
   font-family: sans-serif;
   font-size:16px;
-  padding-top: 10px;
-  margin-top: 10px;
+  padding: 47px 0 43px;
   justify-content: space-between;
   box-sizing: border-box;
   flex-direction: row;
   text-decoration: none;
+  line-height: 1.42857143;
+  font-size: 1rem;
+  
+}
+
+.footer-box {
+  display:flex;
+    width: 70%;
+  margin: 0 auto;
+}
+
+.sign-up {
+background: #dddddd;
+fill: #666666;
+box-sizing: border-box;
+margin: 30px auto 15px;
+padding: 50px 0;
+display:flex;
+}
+
+.sign-up-input {
+
+    display: flex;
 }
 
 .services {
@@ -58,11 +89,14 @@ ul {
     box-sizing: border-box;
     flex-direction: row;
     text-decoration: none;
-
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-a:link    { color: #fff; text-decoration: none; }
-a:visited { color: #fff; text-decoration: none; }
-a:hover   { color: #fff; text-decoration: none; }
-a:active  { color: #fff; text-decoration: none; }
+.social-media {
+  display: flex;
+
+}
 
