@@ -11,7 +11,8 @@ footer {
   color: #fff;
   font-family: sans-serif;
   font-size:16px;
-  padding: 47px 0 433px;
+  padding-top: 10px;
+  margin-top: 10px;
   justify-content: space-between;
   box-sizing: border-box;
   flex-direction: row;
@@ -21,7 +22,6 @@ footer {
 .services {
     display: flex; 
     box-sizing: border-box;
-    flex-direction: row;
     text-decoration: none;
 }
 
@@ -33,10 +33,32 @@ footer {
     text-decoration: none;
 }
 
+.service {
+    display: block; 
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.office {
+    display: block;
+    box-sizing: border-box;
+    flex-direction: row;
+    text-decoration: none;
+}
+
 ul {
     list-style: none;
     text-decoration: none;
     
+}
+
+.lisense {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    text-decoration: none;
+
 }
 
 a:link    { color: #fff; text-decoration: none; }
